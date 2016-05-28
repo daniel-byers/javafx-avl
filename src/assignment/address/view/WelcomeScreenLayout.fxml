@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="pane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="assignment.address.controller.WelcomeScreenController">
+
+    <stylesheets>
+            <URL value="@welcomescreen.css" /> 
+    </stylesheets>
+   <children>
+       
+       <GridPane hgap=" 50" vgap="10" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="10.0">
+       
+           <padding>
+               <Insets bottom="25" left="25" right="25" top="25" />
+           </padding>
+   
+           <gridLinesVisible>
+            false
+        </gridLinesVisible>
+          <children>
+      
+              <Text fx:id="welcomeText" text="Welcome" GridPane.columnIndex="0" GridPane.columnSpan="3" GridPane.rowIndex="0" />
+      
+              <Text fx:id="importText" text="please import a .csv file to begin..." GridPane.columnIndex="2" GridPane.rowIndex="1" />
+          </children>
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+   
+        </GridPane>
+   
+       
+        <HBox alignment="BOTTOM_RIGHT" AnchorPane.bottomAnchor="10" AnchorPane.rightAnchor="10">
+      <children> 
+                      <Button fx:id="importButton" alignment="BOTTOM_RIGHT" onAction="#handleImportButtonAction" text="IMPORT" />
+      </children>
+        </HBox>
+   </children>
+</AnchorPane>

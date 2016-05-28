@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="pane" prefHeight="500.0" prefWidth="1000.0" stylesheets="@searchscreen.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment.address.controller.SearchScreenController">
+   <children>
+      <GridPane hgap="30.0" layoutX="162.0" layoutY="121.0" prefHeight="423.0" prefWidth="918.0" vgap="20.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="25.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="513.0" minWidth="10.0" prefWidth="509.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="322.0" minWidth="10.0" prefWidth="255.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="136.0" minWidth="10.0" prefWidth="79.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="163.0" minHeight="10.0" prefHeight="154.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="95.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="95.0" minHeight="10.0" prefHeight="34.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="95.0" minHeight="10.0" prefHeight="34.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="0.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label id="searchSubText" text="by Name:" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Label>
+            <Label id="searchSubText" text="by Trade Partners:" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Label>
+            <Label fx:id="searchText" text="SEARCH" GridPane.columnSpan="2147483647">
+               <padding>
+                  <Insets left="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="searchField" alignment="BOTTOM_LEFT" minHeight="-Infinity" onInputMethodTextChanged="#handlePartialSearch" onKeyPressed="#handlePartialSearch" onKeyReleased="#handlePartialSearch" onKeyTyped="#handlePartialSearch" prefHeight="50.0" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Button id="searchButton" maxWidth="1.7976931348623157E308" minHeight="-Infinity" mnemonicParsing="false" onAction="#handleOnTextSearch" prefHeight="50.0" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Button id="searchButton" maxWidth="1.7976931348623157E308" minHeight="-Infinity" mnemonicParsing="false" onAction="#handleOnComboSearch" prefHeight="50.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <ComboBox fx:id="searchBox" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="50.0" prefWidth="150.0" promptText="Choose a country..." GridPane.columnIndex="1" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Label fx:id="errorText" alignment="TOP_LEFT" text="Country not found, please try agaian" visible="false" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <ListView fx:id="autoSearchField" onKeyTyped="#handlePartialSearch" onMouseClicked="#handleListViewChoice" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.rowSpan="2" />
+            <Button id="homeButton" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" mnemonicParsing="false" onAction="#handleHomeClicked" prefHeight="50.0" GridPane.columnIndex="2" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,74 @@
+.root
+{
+    -fx-background-color: white;
+}
+
+#pane
+{
+    -fx-background-image: url(./pics/countrybackground.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 600 800;
+}
+
+.button
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-background-color: #00A2E8;
+    -fx-text-fill: white;
+}
+
+.button:hover
+{
+    -fx-background-color: #99D9EA
+        
+}
+
+.text-field:error
+{
+    -fx-text-box-border: #FF3333;
+    -fx-focus-color: #FF3333;
+}
+
+#countryInfoTitle
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;    
+    -fx-font-size: 3em;
+    -fx-text-fill: #00A2E8;
+    -fx-valignment: bottom;
+}
+
+#countryLabelName
+{
+     -fx-font-family: "Tahoma";
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00A2E8;
+}
+
+#editField
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #99D9EA;
+}
+
+#infoField
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 1em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00A2E8;
+    -fx-wrap-text: true;
+}
+
+#errorText
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 1em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FF3333;
+    -fx-wrap-text: true;
+}

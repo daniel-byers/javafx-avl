@@ -1,0 +1,56 @@
+.axis
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+}
+
+.axis:bottom
+{
+    -fx-tick-label-font-size: 1.5em;
+    -fx-tick-label-fill: #00A2E8;
+}
+
+.axis:left
+{    
+    -fx-tick-label-fill: black;
+}
+
+.axis:left .axis-label .text
+{
+    -fx-fill: #00A2E8;
+    -fx-font-size: 1.25em;
+}
+
+.bar-chart:vertical .chart-content .chart-plot-background
+{
+    -fx-background-color: white;
+}
+
+.bar-chart:vertical .chart-content .plot-content .default-color0
+{
+    -fx-background-color: #00A2E8;
+}
+
+#titleText
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 5em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00A2E8;
+}
+
+#countryLabel
+{
+     -fx-font-family: "Tahoma";
+    -fx-font-size: 2em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00A2E8;
+}
+
+#homeButton
+{
+    -fx-background-image: url("./pics/home.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 40;
+}

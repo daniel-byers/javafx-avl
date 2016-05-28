@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="pane" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment.address.controller.TradePartnersController">
+    <stylesheets>
+        <URL value="@tradepartnersscreen.css" />
+    </stylesheets>
+   <children>
+      <Label id="titleText" fx:id="lblTitle" alignment="CENTER" layoutX="138.0" layoutY="29.0" text="Label" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0" />
+      <TilePane fx:id="tradePartnerTiles" alignment="TOP_CENTER" hgap="10.0" layoutX="200.0" layoutY="164.0" prefColumns="3" prefHeight="200.0" prefRows="2" vgap="10.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="150.0">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding></TilePane>
+      <Button id="homeButton" mnemonicParsing="false" onAction="#handleOnHomeButtonClick" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="25.0" />
+   </children>
+</AnchorPane>

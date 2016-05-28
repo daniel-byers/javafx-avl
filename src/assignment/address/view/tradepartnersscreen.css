@@ -1,0 +1,37 @@
+#pane
+{
+    -fx-background-image: url(./pics/tradebackground.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 1200 400;
+    -fx-background-position: left top;    
+}
+
+.button
+{
+    -fx-text-fill: white;
+    -fx-font-family: "Tahoma";
+    -fx-background-color: #00A2E8;
+    -fx-font-weight: bold;
+    -fx-padding: 20 50 20 50;
+}
+
+.button:hover
+{
+    -fx-background-color: #99D9EA
+}
+
+#titleText
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 5em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00A2E8;
+}
+
+#homeButton
+{
+    -fx-background-image: url("./pics/home.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 40;
+}

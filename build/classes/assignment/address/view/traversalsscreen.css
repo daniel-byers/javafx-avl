@@ -1,0 +1,58 @@
+.root
+{
+    -fx-background-color: white;
+}
+
+#lblTitle
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;    
+    -fx-font-size: 3em;
+    -fx-text-fill: #00A2E8;
+    -fx-valignment: bottom;
+}
+
+.text-area
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00A2E8;
+}
+
+.text-area:readonly .scroll-pane .scroll-bar:horizontal .thumb
+{
+    -fx-background-color: #00A2E8;
+}
+
+.text-area:readonly .scroll-pane .scroll-bar:horizontal .track
+{
+    -fx-background-color: white;
+}
+
+.text-area:readonly .scroll-pane .scroll-bar:horizontal .track-background
+{
+    
+}
+
+.text-area:readonly .scroll-pane .scroll-bar:horizontal .increment-button
+{
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+text-area:readonly .scroll-pane .scroll-bar:horizontal .increment-button .increment-arrow
+{
+    -fx-background-color: #00A2E8;
+}
+
+.text-area:readonly .scroll-pane .scroll-bar:horizontal .decrement-button
+{
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.text-area:readonly .scroll-pane .scroll-bar:horizontal .decrement-button .decrement-arrow
+{
+    -fx-background-color: #00A2E8;
+}

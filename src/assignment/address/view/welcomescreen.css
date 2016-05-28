@@ -1,0 +1,38 @@
+.button
+{
+    -fx-text-fill: white;
+    -fx-font-family: "Tahoma";
+    -fx-background-color: #00A2E8;
+    -fx-font-weight: bold;
+    -fx-padding: 20 50 20 50;
+}
+
+.button:hover
+{
+    -fx-background-color: #99D9EA
+}
+
+#pane
+{
+    -fx-background-image: url(./pics/background.jpg);
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 750 300;
+    -fx-background-position: center center;    
+}
+
+#welcomeText
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 8em;
+    -fx-font-weight: bold;
+    -fx-fill: #00A2E8;
+}
+
+#importText
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+    -fx-fill: #00A2E8;
+}
+

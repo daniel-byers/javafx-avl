@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="pane" prefHeight="450.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment.address.controller.CountryEditController">
+    <stylesheets>
+        <URL value="@countryedit.css" />
+    </stylesheets>
+   <children>
+      <GridPane hgap="10.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="274.0" minWidth="10.0" prefWidth="265.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="243.0" minWidth="10.0" prefWidth="225.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label id="countryInfoTitle" text="Edit Information" GridPane.columnSpan="2147483647">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin></Label>
+            <Label id="countryLabelName" text="Country Name:" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Label id="countryLabelName" text="GDP Growth:" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Label id="countryLabelName" text="Inflation:" GridPane.halignment="RIGHT" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Label id="countryLabelName" text="Trade Balance:" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Label id="countryLabelName" text="HDI Ranking:" GridPane.halignment="RIGHT" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Label id="countryLabelName" text="Main Trade Parteners:" GridPane.halignment="RIGHT" GridPane.rowIndex="6" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets top="5.0" />
+               </GridPane.margin></Label>
+            <TextField id="editField" fx:id="txtInflation" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <TextField id="editField" fx:id="txtName" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <TextField id="editField" fx:id="txtGDPGrowth" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <TextField id="editField" fx:id="txtTradeBalance" GridPane.columnIndex="1" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <TextField id="editField" fx:id="txtHDIRanking" GridPane.columnIndex="1" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleOnOkButton" text="OK" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin></Button>
+            <Button cancelButton="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleOnCancelButton" text="CANCEL" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin></Button>
+            <TextArea id="editField" fx:id="txtTradePartners" prefHeight="115.0" prefWidth="220.0" GridPane.columnIndex="1" GridPane.rowIndex="6" GridPane.rowSpan="2" />
+            <Label id="infoField" nodeOrientation="LEFT_TO_RIGHT" text="Please list trade parteners seperated by a comma (',')" textAlignment="RIGHT" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Label>
+            <Label id="errorText" fx:id="errorText" nodeOrientation="LEFT_TO_RIGHT" text="There are some errors, please check the red boxes" textAlignment="CENTER" visible="false" GridPane.rowIndex="7" GridPane.valignment="BOTTOM" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

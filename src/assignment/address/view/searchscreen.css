@@ -1,0 +1,175 @@
+.root
+{
+    -fx-background-color: white;
+}
+
+#pane
+{
+    -fx-background-image: url(./pics/searchbackground.jpg);
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1000 400;
+    -fx-background-position: left top;    
+}
+.button
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-background-color: #00A2E8;
+    -fx-text-fill: white;
+}
+
+.button:hover
+{
+    -fx-background-color: #99D9EA
+        
+}
+
+.list-view
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 1.5em;
+    -fx-background-color: white;
+    -fx-background-insets: 0px;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .thumb
+{
+    -fx-background-color: #00A2E8;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .track
+{
+    -fx-background-color: white;
+}
+
+.list-view .virtual-flow .clipped-container .sheet .list-cell
+{
+   -fx-background-color: white;
+   -fx-text-fill: #00A2E8;
+}
+
+.list-view .virtual-flow .clipped-container .sheet .list-cell:selected
+{
+    -fx-background-color: #00A2E8;
+    -fx-text-fill: white;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .increment-button
+{
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .increment-button .increment-arrow
+{
+    -fx-background-color: #00A2E8;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .decrement-button
+{
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .decrement-button .decrement-arrow
+{
+    -fx-background-color: #00A2E8;
+}
+
+#searchText
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;    
+    -fx-font-size: 8em;
+    -fx-text-fill: #00A2E8;
+    -fx-valignment: bottom;
+}
+
+#searchSubText
+{
+     -fx-font-family: "Tahoma";
+    -fx-font-size: 3em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00A2E8;
+}
+
+#searchField
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #99D9EA;
+}
+
+#errorText
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 1.2em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ff3333;
+    -fx-effect: dropshadow(gaussian, #660000, 2, 0.5, 1, 1);
+}
+
+#searchButton
+{
+    -fx-background-image: url("./pics/search.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 30;
+}
+
+.combo-box .list-cell:focused:filled:selected:even .text
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 1em;
+    -fx-text-fill: #99D9EA;
+}
+
+.combo-box .arrow-button .arrow
+{
+    -fx-background-color: #00A2E8;
+}
+
+.combo-box .list-view .virtual-flow .scroll-bar:vertical .track
+{
+     -fx-background-color: white;
+}
+
+.combo-box .list-view .virtual-flow .scroll-bar:vertical .thumb
+{
+   -fx-background-color: #00A2E8;
+}
+
+.combo-box .list-view .virtual-flow .scroll-bar:vertical .track-background
+{
+    -fx-background-color: white;
+}
+
+.combo-box .list-view .virtual-flow .scroll-bar:vertical.arrow-button
+{
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.combo-box .list-view .virtual-flow .scroll-bar:vertical .decrement-arrow
+{
+    -fx-background-color: #00A2E8;
+}
+
+.combo-box .list-view .virtual-flow .scroll-bar:vertical .increment-arrow
+{
+    -fx-background-color: #00A2E8;
+}
+
+.autofill-text
+{
+    -fx-skin: "np.com.ngopal.control.AutoFillTextBoxSkin";
+}
+
+#homeButton
+{
+    -fx-background-image: url("./pics/home.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 40;
+}

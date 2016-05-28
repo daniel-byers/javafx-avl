@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment.address.controller.TraversalsScreenController">
+    <stylesheets>
+        <URL value="@traversalsscreen.css" />
+    </stylesheets>
+   <children>
+      <Label id="lblTitle" alignment="CENTER" layoutX="283.0" layoutY="41.0" text="Traversals" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="25.0" />
+      <TextArea fx:id="txtOutput" editable="false" layoutX="216.0" layoutY="100.0" prefHeight="125.0" prefWidth="200.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,138 @@
+.root
+{
+    -fx-background-color: white;
+}
+
+#pane
+{
+    -fx-background-image: url(./pics/countrybackground.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 750 300;
+    -fx-background-position: left top;    
+}
+
+.button
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-background-color: #00A2E8;
+    -fx-text-fill: white;
+}
+
+.button:hover
+{
+    -fx-background-color: #99D9EA
+        
+}
+
+.list-view
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 1.5em;
+    -fx-background-color: white;
+    -fx-background-insets: 0px;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .thumb
+{
+    -fx-background-color: #00A2E8;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .track
+{
+    -fx-background-color: white;
+}
+
+.list-view .virtual-flow .clipped-container .sheet .list-cell
+{
+   -fx-background-color: white;
+   -fx-text-fill: #00A2E8;
+}
+
+.list-view .virtual-flow .clipped-container .sheet .list-cell:selected
+{
+    -fx-background-color: #00A2E8;
+    -fx-text-fill: white;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .increment-button
+{
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .increment-button .increment-arrow
+{
+    -fx-background-color: #00A2E8;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .decrement-button
+{
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .decrement-button .decrement-arrow
+{
+    -fx-background-color: #00A2E8;
+}
+
+.list-view .virtual-flow .scroll-bar:horizontal
+{
+    -fx-visibility: false;
+}
+
+#countryInfoTitle
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;    
+    -fx-font-size: 4em;
+    -fx-text-fill: #00A2E8;
+    -fx-valignment: bottom;
+}
+
+#countryLabelName
+{
+     -fx-font-family: "Tahoma";
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00A2E8;
+}
+
+#countryLabelValue
+{
+     -fx-font-family: "Tahoma";
+    -fx-font-size: 2em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #99D9EA;
+}
+
+#btnRemove
+{
+    -fx-background-color: #FF6666;
+    -fx-background-image: url("./pics/remove.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 40;
+}
+
+#btnRemove:hover
+{
+    -fx-background-color: #FFC147
+}
+
+#homeButton
+{
+    -fx-background-image: url("./pics/home.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 40;
+}
+
+#editButton
+{
+    -fx-background-image: url("./pics/edit.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 40;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="450.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="assignment.address.controller.AboutScreenController">
+    <stylesheets>
+        <URL value="@aboutscreen.css" />
+    </stylesheets>
+   <children>
+      <Label id="lblTitle" alignment="CENTER" layoutX="183.0" layoutY="36.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" stylesheets="@aboutscreen.css" text="About" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="20.0" />
+      <Label id="infoText" alignment="CENTER" layoutX="129.0" layoutY="163.0" maxWidth="1.7976931348623157E308" text="Daniel Byers" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      <Label id="infoText" alignment="CENTER" layoutX="183.0" layoutY="205.0" maxWidth="1.7976931348623157E308" text="13121312" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      <Label id="infoText" alignment="CENTER" layoutX="22.0" layoutY="268.0" maxWidth="1.7976931348623157E308" text="Algorithms and Data Structures" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>

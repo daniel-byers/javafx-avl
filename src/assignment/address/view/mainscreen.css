@@ -1,0 +1,110 @@
+/* 
+    Created on : 15-Feb-2015, 22:08:11
+    Author     : Dann
+*/
+.root
+{
+    -fx-background-color: white;
+}
+
+#pane
+{
+    -fx-background-image: url(./pics/mainbackground.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 1200 200;
+    -fx-background-position: left bottom;    
+}
+
+.list-view
+{
+    -fx-background-color: white;
+    -fx-background-insets: 0px;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .thumb
+{
+    -fx-background-color: #00A2E8;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .track
+{
+    -fx-background-color: white;
+}
+
+.list-view .virtual-flow .clipped-container .sheet .list-cell:filled:even
+{
+    -fx-background-color:  white;
+}
+
+.list-view .virtual-flow .clipped-container .sheet .list-cell:filled:odd
+{
+    -fx-background-color: white;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .increment-button
+{
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .increment-button .increment-arrow
+{
+    -fx-background-color: #00A2E8;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .decrement-button
+{
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.list-view .virtual-flow .scroll-bar:vertical .decrement-button .decrement-arrow
+{
+    -fx-background-color: #00A2E8;
+}
+
+.list-view .virtual-flow .clipped-container .sheet .list-cell:filled:even .text
+{
+    -fx-font-family: "Tahoma";
+    -fx-fill: #00A2E8;
+    -fx-font-size: 1.2em;
+}
+
+.list-view .virtual-flow .clipped-container .sheet .list-cell:filled:odd .text
+{
+    -fx-font-family: "Tahoma";
+    -fx-fill: #00A2E8; 
+    -fx-font-size: 1.2em; 
+}
+
+#countryText
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;    
+    -fx-font-size: 1.5em;
+    -fx-text-fill: #00A2E8;
+}
+
+#infoText
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;    
+    -fx-font-size: 1.5em;
+    -fx-text-fill: #00A2E8;
+    -fx-background-color: rgba(255,255,255,0.3);
+    -fx-background-radius: 10;
+}
+
+.button
+{
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-background-color: #00A2E8;
+    -fx-text-fill: white;
+}
+
+.button:hover
+{
+    -fx-background-color: #99D9EA
+        
+}
